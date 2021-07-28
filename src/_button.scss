@@ -1,0 +1,13 @@
+@import '@primer/css/buttons/button';
+
+button {
+  @extend .btn;
+
+  &.mod-cta {
+    @extend .btn-primary;
+  }
+}
+
+.modal.mod-settings button:not(.mod-cta):not(.mod-warning) {
+  background-color: var(--color-btn-bg);
+}

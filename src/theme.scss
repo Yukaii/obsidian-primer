@@ -1,6 +1,11 @@
+// Primers includes
+@import '@primer/css/support/variables/layout';
 @import '@primer/css/support/variables/typography';
 @import '@primer/css/support/variables/misc';
 
+@import '@primer/css/buttons/button';
+
+// Partials
 @import 'variables';
 @import 'layout';
 @import 'button';

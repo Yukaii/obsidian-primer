@@ -1,0 +1,54 @@
+@import '@primer/css/support/variables/layout';
+
+$header-height: $spacer-5;
+$dock-width: $spacer-7;
+
+// Tabs
+.workspace-tab-header-container {
+  height: $header-height;
+}
+
+.workspace-tab-container-before,
+.workspace-tab-container-after {
+  width: 0;
+}
+
+.workspace-tab-header-inner {
+  align-items: center;
+}
+
+.workspace-tab-container-before.is-before-active .workspace-tab-header-inner,
+.workspace-tab-header.is-before-active .workspace-tab-header-inner {
+  border-bottom-right-radius: 0;
+}
+
+// Handle
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+  height: calc(100% - #{$header-height});
+}
+
+.view-header {
+  height: $header-height;
+  align-items: center;
+}
+
+.side-dock-ribbon {
+  &.mod-left {
+    flex: 0 0 $dock-width;
+  }
+
+  &.mod-right {
+    // flex: 0 0 $dock-width;
+  }
+}
+
+.workspace-ribbon-collapse-btn {
+  display: inline-flex;
+  justify-content: center;
+  margin-top: $header-height;
+}
+
+.side-dock-settings {
+  margin-bottom: 0;
+}

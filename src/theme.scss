@@ -4,9 +4,12 @@
 @import '@primer/css/support/variables/misc';
 
 @import '@primer/css/buttons/button';
+@import '@primer/css/navigation/menu';
 
 // Partials
 @import 'variables';
 @import 'layout';
-@import 'button';
 @import 'editor';
+
+// Components
+@import 'button';

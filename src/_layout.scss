@@ -106,7 +106,7 @@ $dock-width: $spacer-7;
 }
 
 .workspace-tab-header-container {
-  padding-left: 2px;
+  padding-left: $spacer-2;
 }
 
 .titlebar {
@@ -114,5 +114,41 @@ $dock-width: $spacer-7;
 
   .titlebar-inner {
     color: var(--titlebar-text);
+  }
+}
+
+.modal {
+  background-color: var(--color-bg-canvas);
+}
+
+.horizontal-tab-content,
+.vertical-tab-content {
+  background-color: var(--color-bg-canvas);
+}
+
+.vertical-tab-header {
+  background-color: var(--color-bg-secondary);
+}
+
+// Navigation
+.vertical-tab-nav-item {
+  @extend .menu-item;
+
+  &:first-child,
+  &:last-child {
+    border-radius: 0;
+  }
+
+  &.is-active {
+    border-left-color: var(--color-menu-border-active);
+  }
+}
+
+.horizontal-tab-nav-item,
+.vertical-tab-nav-item {
+  background-color: var(--color-bg-primary);
+
+  &.is-active {
+    background-color: var(--color-menu-bg-active);
   }
 }

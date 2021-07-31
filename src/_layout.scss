@@ -50,3 +50,11 @@ $dock-width: $spacer-7;
 .side-dock-settings {
   margin-bottom: 0;
 }
+
+.titlebar {
+  background-color: var(--titlebar-bg);
+
+  .titlebar-inner {
+    color: var(--titlebar-text);
+  }
+}

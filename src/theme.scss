@@ -2,6 +2,7 @@
 @import '@primer/css/support/variables/layout';
 @import '@primer/css/support/variables/typography';
 @import '@primer/css/support/variables/misc';
+@import '@primer/css/markdown';
 
 @import '@primer/css/buttons/button';
 
@@ -9,6 +10,7 @@
 @import 'variables';
 @import 'layout';
 @import 'editor';
+@import 'markdown';
 
 // Components
 @import 'button';

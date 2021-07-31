@@ -2,6 +2,14 @@
 
 WIP WIP WIP
 
+## Screenshots
+
+|                       Dark                        |                        Light                        |
+| :-----------------------------------------------: | :-------------------------------------------------: |
+|   ![editor dark](./docs/images/editor_dark.png)   |   ![editor light](./docs/images/editor_light.png)   |
+|  ![preview dark](./docs/images/preview_dark.png)  |  ![preview light](./docs/images/preview_light.png)  |
+| ![settings dark](./docs/images/settings_dark.png) | ![settings light](./docs/images/settings_light.png) |
+
 ## Development
 
 Setup & Build:

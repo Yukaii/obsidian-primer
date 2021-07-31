@@ -3,10 +3,14 @@
 
 .theme-light {
   @include primer-colors-light;
+
+  --cursor-color: var(--color-scale-blue-7);
 }
 
 .theme-dark {
   @include primer-colors-dark;
+
+  --cursor-color: var(--color-scale-blue-2);
 }
 
 .theme-light,
@@ -55,6 +59,8 @@
   --titlebar-bg: var(--color-bg-canvas);
   --titlebar-text: var(--color-text-secondary);
 
+  --font-editor: 'Sarasa Mono TC';
+  --font-monospace: 'Sarasa Mono TC';
 }
 
 .theme-dark {

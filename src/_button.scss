@@ -9,3 +9,7 @@ button {
 .modal.mod-settings button:not(.mod-cta):not(.mod-warning) {
   background-color: var(--color-btn-bg);
 }
+
+.modal button:not(.mod-cta):not(.mod-warning) {
+  background-color: var(--color-btn-bg);
+}

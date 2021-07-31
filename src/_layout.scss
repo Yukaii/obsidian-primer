@@ -51,6 +51,64 @@ $dock-width: $spacer-7;
   margin-bottom: 0;
 }
 
+.workspace-split.mod-left-split .workspace-tabs .workspace-leaf {
+  border-top-left-radius: 0;
+}
+
+.workspace-split.mod-root
+  > .workspace-leaf:first-of-type:last-of-type
+  .view-header {
+  border-width: 1px;
+}
+
+.workspace-tabs {
+  background-color: var(--background-secondary);
+  padding-right: 0;
+}
+
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+  width: 1px;
+}
+
+.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle {
+  height: 3px;
+
+  &:after {
+    width: 100%;
+    height: 4px;
+  }
+}
+
+.workspace-leaf-resize-handle {
+  width: 3px;
+  padding: 0 1px;
+
+  background-color: transparent;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 4px;
+    background-color: var(--background-secondary-alt);
+  }
+}
+
+.workspace-leaf-resize-handle:hover {
+  background-color: transparent;
+
+  &:after {
+    background-color: rgba(var(--interactive-accent-rgb), 0.5);
+  }
+}
+
+.workspace-tab-header-container {
+  padding-left: 2px;
+}
+
 .titlebar {
   background-color: var(--titlebar-bg);
 

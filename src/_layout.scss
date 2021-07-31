@@ -132,7 +132,9 @@ $dock-width: $spacer-7;
 
 // Navigation
 .vertical-tab-nav-item {
-  @extend .menu-item;
+  padding: $spacer-2 $spacer-3;
+  color: var(--color-text-primary);
+  border-bottom: $border-width $border-style var(--color-border-secondary);
 
   &:first-child,
   &:last-child {
@@ -151,4 +153,8 @@ $dock-width: $spacer-7;
   &.is-active {
     background-color: var(--color-menu-bg-active);
   }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
 }

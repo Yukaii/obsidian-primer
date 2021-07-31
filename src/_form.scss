@@ -1,0 +1,14 @@
+.checkbox-container {
+  height: 17px;
+  width: 32px;
+
+  &:after {
+    left: -2px;
+    width: 12px;
+    height: 12px;
+  }
+
+  &.is-enabled:after {
+    transform: translate3d(16px, 0, 0);
+  }
+}

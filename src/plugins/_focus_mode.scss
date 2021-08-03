@@ -1,0 +1,4 @@
+.focus-mode .cm-s-obsidian div:not(.CodeMirror-activeline) > .CodeMirror-line {
+  opacity: 0.6 !important;
+  filter: saturate(0.6) !important;
+}

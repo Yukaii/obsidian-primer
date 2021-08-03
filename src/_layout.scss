@@ -4,6 +4,16 @@ $dock-width: $spacer-7;
 // Tabs
 .workspace-tab-header-container {
   height: $header-height;
+  padding-top: 0;
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+  border-color: var(--color-auto-gray-3);
+}
+
+.workspace-tabs {
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  border-color: var(--color-auto-gray-3);
 }
 
 .workspace-tab-container-before,
@@ -15,9 +25,18 @@ $dock-width: $spacer-7;
   align-items: center;
 }
 
+.workspace-tab-header.is-active {
+  border-radius: 0;
+}
+
 .workspace-tab-container-before.is-before-active .workspace-tab-header-inner,
 .workspace-tab-header.is-before-active .workspace-tab-header-inner {
   border-bottom-right-radius: 0;
+}
+
+.workspace-tab-container-after.is-after-active .workspace-tab-header-inner,
+.workspace-tab-header.is-after-active .workspace-tab-header-inner {
+  border-bottom-left-radius: unset;
 }
 
 // Handle
@@ -105,10 +124,6 @@ $dock-width: $spacer-7;
   }
 }
 
-.workspace-tab-header-container {
-  padding-left: $spacer-2;
-}
-
 .titlebar {
   background-color: var(--titlebar-bg);
 
@@ -181,4 +196,8 @@ $dock-width: $spacer-7;
 
 .nav-header {
   padding: 10px 10px 0px 10px;
+}
+
+.status-bar-item-segment {
+  font-family: SF Pro;
 }

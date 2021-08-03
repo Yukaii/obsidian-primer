@@ -12,3 +12,11 @@
     transform: translate3d(16px, 0, 0);
   }
 }
+
+input[type='text'],
+input[type='search'],
+input[type='email'],
+input[type='password'],
+input[type='number'] {
+  font-size: 15px;
+}

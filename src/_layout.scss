@@ -22,6 +22,7 @@ $dock-width: $spacer-7;
 }
 
 .workspace-tab-header-inner {
+  padding: 6px 12px 3px 12px;
   align-items: center;
 }
 
@@ -37,6 +38,18 @@ $dock-width: $spacer-7;
 .workspace-tab-container-after.is-after-active .workspace-tab-header-inner,
 .workspace-tab-header.is-after-active .workspace-tab-header-inner {
   border-bottom-left-radius: unset;
+}
+
+.workspace-split.mod-root
+  > .workspace-leaf:last-of-type
+  .workspace-leaf-content {
+  border-top-right-radius: 0;
+}
+
+.workspace-split.mod-root
+  > .workspace-leaf:first-of-type
+  .workspace-leaf-content {
+  border-top-left-radius: 0;
 }
 
 // Handle
@@ -134,6 +147,19 @@ $dock-width: $spacer-7;
 
 .modal {
   background-color: var(--color-bg-canvas);
+  max-width: 90vw;
+}
+
+.modal-content {
+  padding-right: 0;
+}
+
+.modal.mod-settings .vertical-tab-content-container {
+  padding: 44px 0 0 0;
+}
+
+.modal.mod-community-plugin {
+  width: 90vw;
 }
 
 .horizontal-tab-content,

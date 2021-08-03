@@ -169,3 +169,16 @@ $dock-width: $spacer-7;
 .nav-folder-title {
   margin-bottom: $spacer-1;
 }
+
+.nav-buttons-container {
+  justify-content: flex-start;
+}
+
+.nav-action-button {
+  padding: 5px 8px 5px 8px;
+  margin: 0 0px 0px 0px;
+}
+
+.nav-header {
+  padding: 10px 10px 0px 10px;
+}

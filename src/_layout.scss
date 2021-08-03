@@ -1,19 +1,20 @@
 $header-height: $spacer-5;
 $dock-width: $spacer-7;
+$border-color: var(--color-auto-gray-3);
 
 // Tabs
 .workspace-tab-header-container {
   height: $header-height;
   padding-top: 0;
   border-style: solid;
-  border-width: 1px 0 1px 0;
-  border-color: var(--color-auto-gray-3);
+  border-width: 0px 1px 1px 0;
+  border-color: $border-color;
 }
 
 .workspace-tabs {
   border-style: solid;
   border-width: 0 0 0 1px;
-  border-color: var(--color-auto-gray-3);
+  border-color: $border-color;
 }
 
 .workspace-tab-container-before,
@@ -28,6 +29,21 @@ $dock-width: $spacer-7;
 
 .workspace-tab-header.is-active {
   border-radius: 0;
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  border-color: var(--interactive-accent);
+  margin-bottom: -1px;
+
+  border-left-color: $border-color;
+  border-right-color: $border-color;
+
+  &:first-child {
+    margin-left: -1px;
+  }
+
+  &:last-child {
+    margin-right: -1px;
+  }
 }
 
 .workspace-tab-container-before.is-before-active .workspace-tab-header-inner,

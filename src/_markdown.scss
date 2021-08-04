@@ -1,3 +1,10 @@
 .markdown-preview-view {
   @extend .markdown-body;
+
+  .anchor {
+    float: unset;
+    padding-right: unset;
+    margin-left: unset;
+    line-height: unset;
+  }
 }

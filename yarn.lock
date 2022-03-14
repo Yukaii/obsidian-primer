@@ -3,16 +3,16 @@
 
 
 "@primer/css@^17.5.0":
-  version "17.5.0"
-  resolved "https://registry.yarnpkg.com/@primer/css/-/css-17.5.0.tgz#848038e57b462f5f38287fc0a3c6174981e97c09"
-  integrity sha512-JMRpfYco7y39gh5Jq5uzyMmUf5uvIpQgx+4lI67Q39OctkxhPOfYYP67OY8InPASwXFtxybupQTmNGj8e+aBAA==
+  version "17.11.1"
+  resolved "https://registry.yarnpkg.com/@primer/css/-/css-17.11.1.tgz#bcc85c2955ec03ca37abb91806a03ecbfaa7fc99"
+  integrity sha512-9IAan2XO9D54VvSjNP7QZ3C62XMqIf6ltSnIGYh32HDaQuv8LbpptaAqH3bOrJl34Bwn40xI5qWt2vJwKYnFyA==
   dependencies:
-    "@primer/primitives" "^4.3.5"
+    "@primer/primitives" "^4.7.1"
 
-"@primer/primitives@^4.3.5":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.5.2.tgz#97f802ac0e3fa28136f0505a8b009a9be2ac9dec"
-  integrity sha512-Mct7UJNruBFFFFaif19L5E8HvWe5ff64QbzXXxMHl8HVQhtCcVfpGtR30aUYKmtPtQmXO1UOb3QnaO5tuEP+7g==
+"@primer/primitives@^4.7.1":
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.8.1.tgz#05f76e47f67018514fd54b35ca615b9d27ef2a46"
+  integrity sha512-mgr6+EKpn4DixuhLt3drk7QmNQO8M7RYONWovg1nkV7p56jklhDLfZmp1luLUee37eQGAxx3ToStL6gqINFjnQ==
 
 ansi-colors@^1.0.1:
   version "1.1.0"

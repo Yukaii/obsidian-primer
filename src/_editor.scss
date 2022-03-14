@@ -1,3 +1,12 @@
+:root {
+  --h1: 1em;
+  --h2: 1em;
+  --h3: 1em;
+  --h4: 1em;
+  --h5: 1em;
+  --h6: 1em;
+}
+
 .CodeMirror {
   font-family: var(--font-editor) !important;
   font-size: 18px;

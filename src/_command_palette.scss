@@ -1,0 +1,35 @@
+.prompt {
+  border: 1px solid var(--color-border-default) !important;
+  padding: 0;
+
+  input.prompt-input {
+    padding: 24px 16px;
+
+    border: none;
+    border-bottom: 1px solid var(--color-border-default) !important;
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .prompt-results {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .suggestion-item {
+    padding-left: 10px;
+    border-radius: 6px;
+
+    padding: 12px 10px;
+  }
+
+  .suggestion-item,
+  .suggestion-empty {
+    font-size: 14px;
+  }
+
+  .prompt-instructions {
+    padding-top: 0;
+  }
+}

@@ -244,6 +244,10 @@ $border-color: var(--color-auto-gray-3);
   padding: 10px 10px 0px 10px;
 }
 
+.is-translucent .status-bar {
+  margin: 0;
+}
+
 .status-bar-item-segment {
   font-family: SF Pro;
 }
